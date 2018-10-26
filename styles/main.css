@@ -1,0 +1,96 @@
+html {
+    /*font-size: 62.5%;*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Lato-Medium;
+    src: url(../fonts/Lato-Medium.ttf);
+    font-size: 16pt;
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+.body-container {
+    width: 1602px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 942px;
+    position: relative;
+}
+
+.header::after {
+    content: "";
+    background: url(../img/header-image.png) no-repeat;
+    opacity: 0.5;
+    top: 0;
+    left: -36px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+.navigation {
+    width: 632px;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__item {
+    display: inline-block;
+}
+
+.navigation__item a {
+    color: #ffffff;
+    font-family: Lato-Medium;
+    text-decoration: none;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1198px;
+    margin: 0 auto;
+    height: 89px;
+    border-bottom: 1px solid#2b292d;
+    opacity: 15%;
+    /*opacity: 15%*/
+}
+
+.navigation-container__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.navigation-container__item--logo {
+    margin-left: 3px;
+}
+
+.header-text-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header-text-container__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 52pt;
+    color: #ffffff;
+    font-family: Lato-Bold;
+}

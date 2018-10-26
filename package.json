@@ -1,0 +1,23 @@
+{
+  "name": "markup-2018q3",
+  "version": "1.0.0",
+  "description": "| Deadline  | Folder name |\r |-----------|-------------|\r | 04.11.2018 23:59 | markup-2018q3 |",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DzmitryAlfer/markup-2018q3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DzmitryAlfer/markup-2018q3/issues"
+  },
+  "homepage": "https://github.com/DzmitryAlfer/markup-2018q3#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
+}
